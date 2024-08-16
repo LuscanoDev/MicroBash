@@ -1,5 +1,5 @@
 # MicroBash
-A easier bash to use with MicroPython devices
+A easier way to use MicroPython devices
 
 ![](/imgs/img1.png)
 

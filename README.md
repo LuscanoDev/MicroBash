@@ -5,10 +5,12 @@ An easier way to use MicroPython devices
 
 ## How to install
 
+- Clone this repository 
 - Plug your MicroPython device in your computer
-- Copy the bash.py file to your device
+- Copy the bash.py and the bin folder to your device
 - Reset your device
 - In python interpreter, just type  ```import bash```
+  
 That's it!
 
 ## Commands
@@ -16,7 +18,7 @@ That's it!
 - ```help``` -- display the help
 - ```ls``` -- show files in current directory
 - ```cd [folder]``` -- enter in a folder
-- ```touch [filename] [content]``` -- write something in a file
+- ```touch [filename]``` -- create a file
 - ```rm [file]``` -- remove a file
 - ```cat [file]``` -- show content from a file
 - ```mkdir [folder name]``` -- create a folder
@@ -28,3 +30,5 @@ That's it!
 - ```setname``` -- set a name to your bash 'account'
 - ```python [file]``` -- execute a python file
 - ```size [file]``` -- see the size of a file in kilobytes
+
+  If you want to create some command, just create a script and put in the bin folder.
